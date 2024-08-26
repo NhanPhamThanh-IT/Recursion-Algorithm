@@ -9,7 +9,7 @@ A recursive function can be defined as a routine that calls itself directly or i
 In other words, a recursive function is a function that solves a problem by solving smaller instances of the same problem. This technique is commonly used in programming to solve problems that can be broken down into simpler, similar subproblems.
 
 <div align="center">
-<img src="LectureMaterials\RecursiveFunctions\Image\RecursiveFunctions.png">
+<img src="https://github.com/NhanPhamThanh-IT/Recursion-Algorithm/blob/main/LectureMaterials/RecursiveFunctions/Image/RecursiveFunctions.png">
 </div>
 
 ## Need of Recursive Function
