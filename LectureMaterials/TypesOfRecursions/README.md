@@ -352,7 +352,7 @@ __Output__
 Let’s understand the example by __tracing tree of recursive function__. That is how the calls are made and how the outputs are produced.
 
 <div align="center">
-<img src="">
+<img src="https://github.com/NhanPhamThanh-IT/Recursion-Algorithm/blob/main/LectureMaterials/TypesOfRecursions/Image/Indirect1.jpg">
 </div>
 
 </div>
