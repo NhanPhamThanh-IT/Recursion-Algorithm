@@ -11,7 +11,7 @@ Recursion is a process in which a function gets repeated again and again until s
 - __Base Condition__: In order to stop a recursive function, a condition is needed. This is known as a base condition. Base condition is very important. If the base condition is missing from the code then the function can enter into an infinite loop.
 - __Recursive Step__: It divides a big problem into small instances that are solved by the recursive function and later on recombined in the results.
 
-Let a1, a2…… an, be a sequence. The recursive formula is given by:
+Let a(1), a(2), ... a(n) be a sequence. The recursive formula is given by:
 
 ```
 a(n) = a(n-1) + a(1)
@@ -80,14 +80,10 @@ __Example__: The assertion is that the nth Fibonacci number is at most 2^n.
   </tr>
   <tr align="justify">
     <td>
-      <strong>It has two components:</strong><br>
-      Base condition<br>
-      Recursive step
+      <strong>It has two components:</strong> Base condition and Recursive step
     </td>
     <td>
-      <strong>It has two steps:</strong><br>
-      Base step<br>
-      Inductive step
+      <strong>It has two steps:</strong> Base step and Inductive step
     </td>
   </tr>
   <tr align="justify">
