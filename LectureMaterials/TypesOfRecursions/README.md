@@ -303,7 +303,7 @@ Let’s understand the example by __tracing tree of recursive function__. That i
 In this recursion, there may be more than one functions and they are calling one another in a circular manner.
 
 <div align="center">
-<img src="">
+<img src="https://github.com/NhanPhamThanh-IT/Recursion-Algorithm/blob/main/LectureMaterials/TypesOfRecursions/Image/Capture34.jpg">
 </div>
 
 From the above diagram fun(A) is calling for fun(B), fun(B) is calling for fun(C) and fun(C) is calling for fun(A) and thus it makes a cycle.
