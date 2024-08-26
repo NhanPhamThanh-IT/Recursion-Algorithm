@@ -52,7 +52,7 @@ __Output__
 Let’s understand the example by __tracing tree of recursive function__. That is how the calls are made and how the outputs are produced.
 
 <div align="center">
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/20190621015455/tail1.jpg">
+<img src="https://github.com/NhanPhamThanh-IT/Recursion-Algorithm/blob/main/LectureMaterials/TypesOfRecursions/Image/Tail1.jpg">
 </div>
 
 __Time Complexity For Tail Recursion__: O(n) 
