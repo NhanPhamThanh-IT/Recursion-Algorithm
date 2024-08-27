@@ -38,5 +38,5 @@ def rremove(s):
     return ''.join(remove_util(s, len(s)))
 
 # Example usage
-s = "geeksforgeek"
+s = "Code Forces"
 print(rremove(s))

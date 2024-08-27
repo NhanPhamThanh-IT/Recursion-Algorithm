@@ -44,7 +44,7 @@ string rremove(string s) {
 }
 
 int main() {
-    string s = "geeksforgeek";
+    string s = "Code Forces";
     cout << rremove(s) << endl; 
     return 0;
 }
