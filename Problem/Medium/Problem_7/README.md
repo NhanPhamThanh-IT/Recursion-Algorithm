@@ -18,8 +18,8 @@ This article is aimed at giving a recursive implementation for pattern printing.
 
 Time Complexity and Space Complexity of the above Programs
 
-- __Time Complexity__: O(n2)
+- __Time Complexity__: O(n^2)
 
-- __Auxiliary Space__: O(n2), due to recursion stack.
+- __Auxiliary Space__: O(n^2), due to recursion stack.
 
 </div>
