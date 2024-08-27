@@ -51,4 +51,38 @@ __Time complexity__: O(2^N), There are two possibilities for every disk. Therefo
 
 __Auxiliary Space__: O(N), Function call stack space
 
+# Time Complexity Analysis | Tower Of Hanoi (Recursion)
+
+Tower of Hanoi is a mathematical puzzle where we have three rods and n disks. The objective of the puzzle is to move the entire stack to another rod, obeying the following simple rules:
+
+1. Only one disk can be moved at a time. 
+2. Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack i.e. a disk can only be moved if it is the uppermost disk on a stack. 
+3. No disk may be placed on top of a smaller disk. 
+
+### Algorithm
+
+- Move the top n – 1 disks from Source to Auxiliary tower,
+- Move the nth disk from Source to Destination tower,
+- Move the n – 1 disks from Auxiliary tower to Destination tower.
+- Transferring the top n – 1 disks from Source to auxiliary tower can again be thought of as a fresh problem and can be solved in the same manner. Once we solve Towers of Hanoi with three disks, we can solve it with any number of disks with the above algorithm. 
+
+### Pseudo Code
+
+```
+TOH(n, x, y, z)
+{
+   if (n >= 1)
+   {
+      // put (n-1) disk to z by using y
+      TOH((n-1), x, z, y)
+   
+       // move larger disk to right place
+       move:x-->y
+     
+      // put (n-1) disk to right place 
+      TOH((n-1), z, y, x)
+   }
+}
+```
+
 </div>
