@@ -1,4 +1,4 @@
-<div align="center">
+<div align="justify">
 
 # Find the value of a number raised to its reverse
 
