@@ -26,6 +26,8 @@ Follow the steps mentioned below to implement the idea:
 - Then, start a loop from __1__ and it goes till __R__. Multiply the variable __ans__ with N.
 - Return the result ans with modulo of __1e9+7__.
 
+__Complexity Analysis__
+
 __Time Complexity__: O(R)
 
 __Auxiliary Space__: O(1)
@@ -33,6 +35,8 @@ __Auxiliary Space__: O(1)
 ### Find the value of a number raised to its reverse using Recursion
 
 We can use the same approach as above but instead of an iterative loop, we can use recursion for the purpose.
+
+__Complexity Analysis__
 
 __Time Complexity__: O(R)
 
@@ -55,6 +59,8 @@ __Step 2__: Then, check if the given reverse number is __odd__ or not.
 - Start shifting right by __R = R/2__.
 
 __Step 3__: Finally, return the __ans__ as result.
+
+__Complexity Analysis__
 
 __Time Complexity__: O(log R)
 
