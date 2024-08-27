@@ -1,4 +1,4 @@
-<div aligne="justify">
+<div align="justify">
 
 # Binary to Gray code using recursion
 
