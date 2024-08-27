@@ -9,3 +9,5 @@
 7. Print reverse of a string using recursion
 8. Program for length of a string using recursion
 9. Sum of digit of a number using recursion
+10. Tail recursion to calculate sum of array elements
+11. Program to print first n Fibonacci Numbers
